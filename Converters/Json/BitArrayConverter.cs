@@ -28,7 +28,7 @@ namespace Processors.Converters.Json
 
         public override void Write(Utf8JsonWriter writer, BitArray value, JsonSerializerOptions options)
         {
-            byte[] serializable = new byte[(int)Math.Ceiling(value.Length / 8.0)];
+            byte[] serializable = new byte[(value.Length - 1) / 8 + 1];
             value.CopyTo(serializable, 0);
 
             BitArrayDTO dto = new BitArrayDTO
