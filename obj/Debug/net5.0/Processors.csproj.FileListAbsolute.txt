@@ -12,3 +12,8 @@ D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\bin\Debug\net
 D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\Processors.dll
 D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\ref\Processors.dll
 D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\Processors.pdb
+D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\Processors.csproj.AssemblyReference.cache
+D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\bin\Debug\net5.0\ru-RU\Processors.resources.dll
+D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\Processors.Exceptions.ru-RU.resources
+D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\Processors.Messages.ru-RU.resources
+D:\Aleksandr\misc\Tombstones\PL-Projects\C#\Serializers\Processors\obj\Debug\net5.0\ru-RU\Processors.resources.dll

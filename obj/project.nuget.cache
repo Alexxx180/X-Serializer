@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GItTv3fHsXUgkWj9j8f3TOWqjU/G/b/nThCubG2CKmJGJanphpEahpc2e/qVXl5DQpHqGeTfhV1Ev+182kt/nw==",
+  "dgSpecHash": "qF+iugRh3+kLOnZle/DiVPkHxIerL7/giGmbZpMPm489dEyHqZWqDM5jvRJ6+CnBvE4g1Qo5seJGZsdJv7pyAg==",
   "success": true,
   "projectFilePath": "D:\\Aleksandr\\misc\\Tombstones\\PL-Projects\\C#\\Serializers\\Processors\\Processors.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Администратор\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
-    "C:\\Users\\Администратор\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

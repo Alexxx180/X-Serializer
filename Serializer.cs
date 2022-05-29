@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using Serilog;
 
 namespace Processors
 {
@@ -10,15 +9,9 @@ namespace Processors
 
         private protected abstract T Deserialize<T>(string path);
 
-        private static void Message
-            (string message, Exception exception)
-        {
-            Log.Error(message + exception.Message);
-        }
-
         public T Read<T>(string path)
         {
-            Log.Information($"{Messages.Read}: '{path}'");
+            Status = $"{Messages.Read}: '{path}'\n\n";
             T deserilizeable = default;
             try
             {
@@ -26,26 +19,28 @@ namespace Processors
             }
             catch (ArgumentException exception)
             {
-                Message(Exceptions.Read, exception);
+                Status += $"{Exceptions.Read}{exception.Message}\n";
             }
             catch (IOException exception)
             {
-                Message(Messages.Read, exception);
+                Status += $"{Exceptions.Read}{exception.Message}\n";
             }
             return deserilizeable;
         }
 
         public void Write<T>(string path, T serializable)
         {
-            Log.Information($"{Messages.Write}: '{path}'");
+            Status = $"{Messages.Write}: '{path}'\n\n";
             try
             {
                 Serialize(serializable, path);
             }
             catch (IOException exception)
             {
-                Message(Messages.Write, exception);
+                Status += $"{Exceptions.Write}{exception.Message}\n";
             }
         }
+
+        public string Status { get; set; }
     }
 }
