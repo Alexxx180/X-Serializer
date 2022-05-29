@@ -9,6 +9,11 @@
       "Processors/1.0.0": {
         "runtime": {
           "Processors.dll": {}
+        },
+        "resources": {
+          "ru-RU/Processors.resources.dll": {
+            "locale": "ru-RU"
+          }
         }
       }
     }
